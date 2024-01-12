@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import axios from 'axios';
 import MovieList from '../components/MovieList';
 import Header from '../components/Header';
-import Hero from '../components/Hero';
+
 
 interface Movie {
   id: string;
@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = ({ movies }) => {
   return (
     <div>
        <Header />
-       <Hero/>
+
       <MovieList movies={movies} />
     </div>
   );
