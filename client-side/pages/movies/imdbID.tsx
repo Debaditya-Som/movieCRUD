@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { GetServerSideProps } from 'next';
 import MovieDetails from '../../components/MovieDetails';
-import Backdrops from '../../components/Backdrops';
+
 import ReviewList from '../../components/ReviewList';
 
 interface MovieDetailProps {
@@ -21,7 +21,7 @@ const MovieDetail: React.FC<MovieDetailProps> = ({ movie }) => {
   return (
     <div>
       <MovieDetails movie={movie} />
-      <Backdrops backdrops={movie.backdrops} />
+   
       <ReviewList reviews={movie.reviews} />
       {/* Include other components as needed */}
     </div>
