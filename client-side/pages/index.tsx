@@ -1,13 +1,12 @@
-// pages/index.tsx
 import { GetStaticProps } from 'next';
 import axios from 'axios';
 import MovieList from '../components/MovieList';
 import Header from '../components/Header';
+import Hero from '../components/Hero';
 
 interface Movie {
   id: string;
   title: string;
-  // Add other movie properties here
 }
 
 interface HomeProps {
@@ -17,7 +16,8 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ movies }) => {
   return (
     <div>
-    
+       <Header />
+       <Hero/>
       <MovieList movies={movies} />
     </div>
   );
