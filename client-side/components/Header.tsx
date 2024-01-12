@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header: React.FC = () => {
   return (
-    <AppBar position="static" color="transparent">
+    <AppBar position="static" className="bg-blue-500"> 
       <Container>
         <Toolbar>
-          <Typography variant="h6">Movie CRUD</Typography>
+          <Typography variant="h6" className="text-white">Movie CRUD</Typography>
         </Toolbar>
       </Container>
     </AppBar>

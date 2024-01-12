@@ -1,12 +1,14 @@
 import { GetStaticProps } from 'next';
 import axios from 'axios';
-import MovieList from '../components/MovieList';
+import MovieDetails from '../components/MovieDetails';
 import Header from '../components/Header';
 
-
 interface Movie {
-  id: string;
   title: string;
+  releaseDate: string;
+  trailerLink: string;
+  poster: string;
+  genres: string[];
 }
 
 interface HomeProps {
@@ -14,11 +16,14 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ movies }) => {
+
+  const firstMovie = movies[0];
+
   return (
     <div>
-       <Header />
-
-      <MovieList movies={movies} />
+      <Header />
+    
+      <MovieDetails movie={firstMovie} />
     </div>
   );
 };
