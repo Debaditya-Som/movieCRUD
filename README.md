@@ -1,4 +1,4 @@
-The MovieCRUD App is a full-stack web application designed for movie enthusiasts. It employs a microservices architecture with Spring Boot and MongoDB for the backend, and Next.js with TypeScript for the frontend.
+MovieCRUD App is a full-stack web application designed for movie enthusiasts. It employs a microservices architecture with Spring Boot and MongoDB for the backend, and Next.js with TypeScript for the frontend.
 
 ## Tech Stacks
 
@@ -9,6 +9,8 @@ The MovieCRUD App is a full-stack web application designed for movie enthusiasts
     - **MongoDB:**  Serves as the NoSQL database for storing movie information and user reviews.
 
     - **Postman:**  Used it to test the backend Spring Boot API (movie-api).
+  
+    - **Docker: ** Used to containerise the server-side of the application  
 
 - ### Frontend:
 
