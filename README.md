@@ -1,4 +1,22 @@
+<div align="center">
+
+![image](https://github.com/Debaditya-Som/movieCRUD/assets/121785700/21bebcc4-81b2-493c-b418-c9833189a46c)
+
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="logo" width="100" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="logo" width="100" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="logo" width="100" />
+
+   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="logo" width="100" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="logo" width="100" />
+</div>
+
+
 MovieCRUD App is a full-stack web application designed for movie enthusiasts. It employs a microservices architecture with Spring Boot and MongoDB for the backend, and Next.js with TypeScript for the frontend.
+
+
 
 ## Tech Stacks
 
@@ -28,7 +46,12 @@ This concept is fundamental to database management and is often used in the cont
 
 ## Project Workflow
 
-![uzg9i3u89pb3eebmkdfi](https://github.com/Debaditya-Som/movieCRUD/assets/121785700/7d4e6904-b844-42cd-97d2-8ef4d6430949)
+<div align="center">
+ 
+![image](https://github.com/Debaditya-Som/movieCRUD/assets/121785700/c6655666-27d5-4739-bf30-6b9bfe34b17c)
+
+
+</div>
 
 1. **Explore Movies:**
    - Users interact with the dynamic Next.js frontend, which fetches movie data from the Spring Boot backend.
